@@ -3,6 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. image:: RUOA_logo2.fw.png
+   :scale: 75 %
+   :alt: alternate text
+   :align: left
+
 Welcome to Boundary Layer Ceilometer Retrieval's documentation!
 ===============================================================
 
