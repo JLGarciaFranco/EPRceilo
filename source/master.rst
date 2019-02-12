@@ -26,13 +26,17 @@ ranging from 2 to 16 s. Through the analysis of these profiles, :cite:`jlgf2018`
 Figure 1. Ceilometer Vaisala CL31. This instrument is an optical active remote sensing instrument equipped with an eye-safe laser that interacts with atmospheric aerosols in such a way that
 the backscattered signal has been found to be a good proxy for aerosol distribution :cite:`brooks2003,jlgf2018`.
 
+
+The documentation in this webpage serves to describe code functionality, present some examples of how the code may be adapted to process raw ceilometer data or, if this is the case, to estimate and visualize mixed layer height variability. 
+Find index below. 
+
 .. toctree::
    :name: mastertoc
    :numbered:
    :maxdepth: 5
    :caption: Contents:
 
-The documentation in this webpage serves to describe code functionality, present some examples of how the code may be adapted to process raw ceilometer data or, if this is the case, to estimate and visualize mixed layer height variability. 
+
 
 
    processing
