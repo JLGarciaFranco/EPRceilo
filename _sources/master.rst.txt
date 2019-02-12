@@ -8,12 +8,14 @@
    :alt: alternate text
    :align: left
 
-Welcome to Boundary Layer Ceilometer Retrieval's documentation!
+Ceilo code documentation of EPR group, CCA UNAM 
 ===============================================================
 
-This is the documentation for the retrieval of boundary layer structure from Ceilometer Data from the Spectroscopy and Remote Sensing (EPR) Group at UNAM, Mexico.
+These pages document the code use to process ceilometer raw data and interpret the backscattering signal to estimate mixed or boundary layer structure. 
+This is part of work done by the Spectroscopy and Remote Sensing (EPR) Group at UNAM, Mexico using the Red Universitaria de Observatorios Atmosfericos (RUOA) instruments. 
 
-Since 2008, a commercial lidar system, the Vaisala CL31 ceilometer, has been measuring backscattering profiles with a :math:`\sim 10` [m] vertical resolution and a temporal resolution
+Since 2008, a suite of commercial lidar systems, the Vaisala CL31 ceilometer, have been measuring backscattering profiles across different urban and remote parts of Mexico. 
+This instrument is particularly useful for boundary layer studies due to the :math:`\sim 10` [m] vertical resolution and a temporal resolution
 ranging from 2 to 16 s. Through the analysis of these profiles, :cite:`jlgf2018` showed the typical diurnal and seasonal variability of the mixed-layer height.
 
 .. image:: ceilo.jpg
@@ -29,6 +31,9 @@ the backscattered signal has been found to be a good proxy for aerosol distribut
    :numbered:
    :maxdepth: 5
    :caption: Contents:
+
+The documentation in this webpage serves to describe code functionality, present some examples of how the code may be adapted to process raw ceilometer data or, if this is the case, to estimate and visualize mixed layer height variability. 
+
 
    processing
    secondary
